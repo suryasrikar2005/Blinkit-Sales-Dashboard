@@ -1,103 +1,94 @@
 # Blinkit-Sales-Dashboard
-Project Overview
-This repository contains a comprehensive analytics dashboard for Blinkit (India's Last Minute App), providing detailed insights into sales performance, outlet operations, and product analytics across different categories and locations.
 
-Dashboard Features
-Key Performance Indicators (KPIs)
-Total Sales: $1.2M across all outlets
+India’s Last Minute App
 
-Average Sales per Transaction: $141
+This project is an interactive Power BI dashboard visualizing sales and operational metrics for Blinkit, focusing on different outlet types, item types, fat content, and sales performance across years and geographies.
 
-Total Items: 8,523 products in inventory
+🚀 Features
+✅ Total Sales Metrics
 
-Average Customer Rating: 4.0/5.0
+Total Sales: $1.2M
 
-Analytics Modules
-1. Outlet Performance Tracking
-Historical sales data from 2012-2022
+Average Sales: $141
 
-Peak performance analysis showing $205K in 2018
+Number of Items: 8,523
 
-Current performance metrics at $131K
+Average Rating: 4
 
-Outlet establishment timeline visualization
+✅ Outlet Establishment Timeline
 
-2. Fat Content Analysis
-Product categorization by fat content (Regular, Low Fat)
+Displays yearly trends in total sales from 2011 to 2022.
 
-Sales distribution: 49.86% Regular fat products
+Highlights significant peaks (e.g. highest sales at $205K in 2018).
 
-Revenue breakdown by fat content categories
+✅ Fat Content Analysis
 
-Outlet-wise fat content performance metrics
+Compares sales split between:
 
-3. Item Type Performance
-Comprehensive product category analysis
+Regular Fat (≈50.14%)
 
-Top-performing categories:
+Low Fat (≈49.86%)
 
-Household items: $149
+Average sales across fat types:
 
-Dairy products: $148
+Regular Fat: $142
 
-Starchy foods: $148
+Low Fat: $141
 
-Snack foods: $146
+✅ Item Type Breakdown
 
-Complete item type revenue tracking
+Average sales per item type, highest to lowest:
 
-4. Outlet Location Intelligence
-Tier 3 locations: $472.13K (highest revenue)
+Household: $149
 
-Tier 2 locations: $393.15K
+Dairy: $148
 
-Tier 1 locations: $336.4K
+Snacks: $146
 
-Geographic performance distribution analysis
+Fruits: $145
 
-5. Outlet Type Comparison
-Supermarket Type1: $787.55K total sales, 5577 items
+Seafood, Breads, Meat, etc. follow.
 
-Grocery Store: $151.94K total sales, 1083 items
+✅ Fat Content by Outlet Size
 
-Supermarket Type2: $131.48K total sales, 928 items
+Visual comparison of average sales by fat content across Tier 1, 2, and 3 outlets:
 
-Supermarket Type3: $130.71K total sales, 935 items
+Tier 2 → Low Fat $141 | Regular Fat $142
 
-Technical Implementation
-Dashboard Components
-Interactive filtering system for outlet location, size, and item type
+Tier 3 → Low Fat $140 | Regular Fat $142
 
-Real-time data visualization with multiple chart types
+Tier 1 → Low Fat $143 | Regular Fat $140
 
-Responsive design optimized for business intelligence
+✅ Outlet Location Analysis
 
-Data Visualization Types
-Donut Charts: Fat content distribution and outlet performance
+Total sales by tier:
 
-Bar Charts: Item type performance and outlet comparisons
+Tier 3 → $472.13K
 
-Line Graph: Historical outlet establishment trends
+Tier 2 → $393.15K
 
-Stacked Bar Charts: Fat content by outlet tier
+Tier 1 → $336.4K
 
-Data Tables: Detailed outlet type metrics
+Tier 3 leads with ~71.3% share in certain segments.
 
-Key Insights
-Performance Highlights
-Tier 3 locations generate the highest revenue despite potentially lower market penetration
+📈 Tools Used
+Microsoft Power BI
 
-Regular fat content products dominate sales volume
+DAX for measures and calculated columns
 
-Household items represent the top-performing product category
+Custom visuals for donuts, bars, and trend lines
 
-Supermarket Type1 outlets significantly outperform other formats
+💡 Insights
+Regular and low-fat items contribute nearly equally to sales.
 
-Business Intelligence
-Average transaction value of $141 indicates strong customer spending
+Tier 3 outlets generate the highest total sales.
 
-4.0 rating suggests good customer satisfaction
+Supermarket Type 1 contributes the largest share in sales and items.
 
-Diverse product portfolio with 8,523+ items
+Household and Dairy items show higher average sales per item.
 
-Strategic outlet placement across different tier locations
+
+
+
+
+
